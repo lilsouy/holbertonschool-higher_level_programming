@@ -1,0 +1,15 @@
+>>> text_indentation("Hello. How are you?")
+Hello.
+
+How are you?
+>>> text_indentation("Python: is fun. Isn't it?")
+Python:
+
+is fun.
+
+Isn't it?
+>>> text_indentation(123)
+Traceback (most recent call last):
+TypeError: text must be a string
+>>> text_indentation("")
+<BLANKLINE>
